@@ -16,30 +16,31 @@ Outputs the title in a readable format.
 `jq` (for processing JSON)
 
 You can install jq using:
-
-`sudo apt install jq  # Debian/Ubuntu
+```
+sudo apt install jq  # Debian/Ubuntu
 sudo yum install jq  # RHEL/CentOS
 brew install jq      # macOS
-`
+```
 ##📌 Usage
 
 Clone the repository and run the script:
 
-`git clone https://github.com/NighShade8/Hacker-News-Script.git
+```
+git clone https://github.com/NighShade8/Hacker-News-Script.git
 cd Hacker-News-Script
 chmod +x hackerfact.sh  # Make the script executable
 ./hackerfact.sh
-`
+```
 ##⚡ Alias for Quick Access
 
 To run the script from anywhere, create a shell alias. Add this line to your ~/.bashrc or ~/.zshrc file:
 
 `alias hackerfact="~/Hacker-News-Script/hackerfact.sh"`
 Then, reload your shell configuration:
-`
+```
 source ~/.bashrc  # For Bash
 source ~/.zshrc   # For Zsh
-`
+```
 Now, you can fetch a random top Hacker News story with a simple command:
 
 `hackerfact`
